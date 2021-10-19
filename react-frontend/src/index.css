@@ -1,0 +1,103 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  height:auto;
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.header-logo{
+  color:white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.header-logo:hover{
+  color:#ffb3b3;
+}
+
+.navbar-expand-md{
+  padding: 1rem;
+}
+
+.form{
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.form input{
+  border: 0.1rem solid black;
+  padding:0.5rem;
+}
+
+.form .form-group{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+
+.nav .nav-link{
+  color:white;
+}
+
+.nav .nav-link:hover{
+  color:#ffb3b3 !important;
+}
+
+.nav .nav-link:focus{
+  color:white;
+}
+
+.btn {
+  font-size: 1.6rem !important;
+}
+
+.add-employee-form.card{
+  margin-top:5rem;
+  padding: 2rem;
+}
+
+.employee-list-header{
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+.login-wrap{
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.home-main{
+  margin-top: 10rem;
+}
+
+.welcome-user{
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+}
